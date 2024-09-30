@@ -11,8 +11,6 @@ var isValid = function(s) {
     };
     for (let i = 0; i < expression.length; i++) {
         let char = expression[i];
-
-        // If it's an opening bracket, push it onto the stack
         if (char === '(' || char === '{' || char === '[') {
             stack.push(char);
         }
