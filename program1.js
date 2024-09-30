@@ -7,7 +7,8 @@ var isValid = function(s) {
     let matchingBrackets = {
         ')': '(',
         '}': '{',
-        ']': '['
+        ']': '[',
+        
     };
     for (let i = 0; i < s.length; i++) {
         let char = s[i];
