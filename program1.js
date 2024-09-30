@@ -9,8 +9,6 @@ var isValid = function(s) {
         '}': '{',
         ']': '['
     };
-
-    // Loop through each character in the expression
     for (let i = 0; i < expression.length; i++) {
         let char = expression[i];
 
