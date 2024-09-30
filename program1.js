@@ -21,8 +21,6 @@ var isValid = function(s) {
             stack.pop();
         }
     }
-
-    // If the stack is empty, the parentheses are balanced
     return stack.length === 0;
 };
 
