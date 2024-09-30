@@ -18,7 +18,6 @@ var isValid = function(s) {
             if (stack.length === 0 || stack[stack.length - 1] !== matchingBrackets[char]) {
                 return false;
             }
-            // Pop the matching opening bracket from the stack
             stack.pop();
         }
     }
