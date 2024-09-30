@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    let stack  = [];
+    let stack sdf = [];
     
     // Map for matching opening and closing parentheses
     let matchingBrackets = {
