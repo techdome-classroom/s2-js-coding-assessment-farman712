@@ -14,7 +14,6 @@ var isValid = function(s) {
         if (char === '(' || char === '{' || char === '[') {
             stack.push(char);
         }
-        // If it's a closing bracket
         else if (char === ')' || char === '}' || char === ']') {
             // Check if the stack is empty or doesn't match the corresponding opening bracket
             if (stack.length === 0 || stack[stack.length - 1] !== matchingBrackets[char]) {
